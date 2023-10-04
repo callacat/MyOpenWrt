@@ -17,7 +17,7 @@ env:
   SOURCE_URL: https://github.com/coolsnowwolf/lede
   SOURCE_BRANCH: master
   CONFIG_FILE: configs/J4125.config
-  DIY_SCRIPT: giy/diy-J4125.sh
+  DIY_SCRIPT: diy/diy-J4125.sh
   CLASH_KERNEL: amd64
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
