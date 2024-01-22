@@ -12,7 +12,10 @@ on:
   workflow_dispatch:
 #  schedule:
 #    - cron: 0 19 * * *
-
+push:
+  paths:
+    # - '.github/workflows/2100.yml'
+    - 'configs/AC2100.config'
 env:
   SOURCE_URL: https://github.com/coolsnowwolf/lede
   SOURCE_BRANCH: master
